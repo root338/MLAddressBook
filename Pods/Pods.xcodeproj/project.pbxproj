@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F94FD0A1929797F1452F66DA316134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		26AACF5506FB78CEDB8E5EF1CC8DC201 /* UIView+GMLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E753822AD3D06A8273E42C689DBECC /* UIView+GMLAdd.swift */; };
+		3E983D245C626ECF394F73CD99C5F64B /* Pods-MLAddressBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C22350E9F0E84D8262BDC8B16C81EE8A /* Pods-MLAddressBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743DE28C36BD0D647776A83CEB86549E /* Pods-MLAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8B859CB1AC59BC7F6CF19BE0CC9266 /* Pods-MLAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C8FC84D15247938A6E12CAB7124EA7F /* UILabel+GMLCreateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B1037372E9FBBC0BE6786957BDD1F9 /* UILabel+GMLCreateExtension.swift */; };
+		B6CDE5598E4FA16DC5ECDED11CC2BB0F /* GMLUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8162BA0069E310545C0F439BDAEC4BF5 /* GMLUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B971206A25A8CBE15CDF2187E92FF10B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BDCC7368D7E93A731844486EC4CA879C /* Pods-MLAddressBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A34BB91692AC3845545E5FDEEA941F4A /* Pods-MLAddressBookUITests-dummy.m */; };
+		C2ED7A463D81378DD043BD5239671314 /* Pods-MLAddressBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1822EB83CCE0FB01B4A5D12C3143B5 /* Pods-MLAddressBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4E2A406A7776C0CCF72595C24C438D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CBD4EC1E6595461146F99058DD8F24BC /* GMLUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9440494B7F839BAE74B9B789DD64049 /* GMLUI-dummy.m */; };
+		CF4FA7E858CF400DAAAB53F25F52E1C2 /* Pods-MLAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451E9023FBA62EB077245980A4E844DA /* Pods-MLAddressBook-dummy.m */; };
+		D054C2401B06B7DF540577552283564E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F834B04D4823ED82A7632E2916B40536 /* Pods-MLAddressBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE51664A27904129E4B30E96FD16D268 /* Pods-MLAddressBookTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22895C33A842B86058A4994A2E9F8EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAC4FC49F4C8403F36F4894E54DC956;
+			remoteInfo = "Pods-MLAddressBook";
+		};
+		58D92C072C65490793DBBC08FCEC6FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A272005BD6942086E2AEAB006F4E65;
+			remoteInfo = GMLUI;
+		};
+		E0328DDBD7334626A878CFA604F7C9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAC4FC49F4C8403F36F4894E54DC956;
+			remoteInfo = "Pods-MLAddressBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080D0F9474ADF0D8D9238BB83CE888D8 /* GMLUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMLUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A4012003D3016CF24D08A1DD04712F /* Pods-MLAddressBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLAddressBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DE44D1FB5EA200AEE90F928C64B14E0 /* GMLUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMLUI-prefix.pch"; sourceTree = "<group>"; };
+		23E753822AD3D06A8273E42C689DBECC /* UIView+GMLAdd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+GMLAdd.swift"; path = "GMLUIKit/UISetExtension/UIView+GMLAdd.swift"; sourceTree = "<group>"; };
+		267FFC23D3AE191FD96E6A6FA1B6E33B /* Pods-MLAddressBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLAddressBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2766CD999FAB596BE21DEC7E38306355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314A46631227C05B0354FFF8F2C4E24A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451E9023FBA62EB077245980A4E844DA /* Pods-MLAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLAddressBook-dummy.m"; sourceTree = "<group>"; };
+		456E38FFEC25DDFB9EE7F9ABF3DBE192 /* Pods-MLAddressBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLAddressBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		461CAE73671139BEE098E0CFF3D53F14 /* Pods-MLAddressBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A27ACA30B2E4971FDE619AE13094844 /* Pods-MLAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLAddressBook.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C1822EB83CCE0FB01B4A5D12C3143B5 /* Pods-MLAddressBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLAddressBookUITests-umbrella.h"; sourceTree = "<group>"; };
+		6C8B859CB1AC59BC7F6CF19BE0CC9266 /* Pods-MLAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		731DEBBEBAFA5EBCB609D260503572C9 /* Pods_MLAddressBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FCA60E51A3D13CDC672D7DC0FBA2B2 /* Pods-MLAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBook.release.xcconfig"; sourceTree = "<group>"; };
+		81414FE7D5EB7CB0F9730BF2E7263704 /* GMLUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMLUI.modulemap; sourceTree = "<group>"; };
+		8162BA0069E310545C0F439BDAEC4BF5 /* GMLUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMLUI-umbrella.h"; sourceTree = "<group>"; };
+		83400A9F9D6D8F1C3BF8ED07D81DA055 /* Pods-MLAddressBookTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBookTests-frameworks.sh"; sourceTree = "<group>"; };
+		84EE77E853ACEFAC59E45EF82420F7A4 /* Pods-MLAddressBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1B9C4BB0EDAFFBB34468C3B743A7D4 /* Pods_MLAddressBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5F9476E6C43F95488281D95EDD005D /* Pods-MLAddressBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B1037372E9FBBC0BE6786957BDD1F9 /* UILabel+GMLCreateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+GMLCreateExtension.swift"; path = "GMLUIKit/UICreateExtension/UILabel+GMLCreateExtension.swift"; sourceTree = "<group>"; };
+		9A86EBFCFD47122BA4BF9139A2EFDB03 /* Pods-MLAddressBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLAddressBookUITests.modulemap"; sourceTree = "<group>"; };
+		A34BB91692AC3845545E5FDEEA941F4A /* Pods-MLAddressBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLAddressBookUITests-dummy.m"; sourceTree = "<group>"; };
+		A4BF12E1CB4A7EC0B88C2D7369BFE573 /* Pods-MLAddressBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C522CC6AB40A861CA1EE44D25DD428 /* Pods-MLAddressBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLAddressBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B05A4A05C429BB11756A90AB92BCA286 /* Pods-MLAddressBookTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBookTests-resources.sh"; sourceTree = "<group>"; };
+		B7736F17E8D93D1364FC302C971C59E8 /* Pods-MLAddressBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBook-frameworks.sh"; sourceTree = "<group>"; };
+		C22350E9F0E84D8262BDC8B16C81EE8A /* Pods-MLAddressBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLAddressBookTests-umbrella.h"; sourceTree = "<group>"; };
+		C9471A0A6706217BC8F5D3A024AF0326 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA2CBA7316FC3E2A87F7769507AE582 /* Pods-MLAddressBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLAddressBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC7850F3D55358E4C5B73016D9C1E82F /* Pods-MLAddressBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBook-resources.sh"; sourceTree = "<group>"; };
+		D6032CCBFC01C0222A64E8188C696D3A /* Pods-MLAddressBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLAddressBookTests.modulemap"; sourceTree = "<group>"; };
+		DE51664A27904129E4B30E96FD16D268 /* Pods-MLAddressBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLAddressBookTests-dummy.m"; sourceTree = "<group>"; };
+		E0AD435C8ABB7A4F4A7FCE26C20F0772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B322DD0116B1426D02F312AAF279CB /* Pods_MLAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35E3423620F38CBD8C59FD4AA55E441 /* Pods-MLAddressBookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F722B6FFC98D12FE3AE5FFD11FF02E8A /* Pods-MLAddressBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLAddressBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F923AFD6022DD2127D8314880158C1F2 /* GMLUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMLUI.xcconfig; sourceTree = "<group>"; };
+		F9440494B7F839BAE74B9B789DD64049 /* GMLUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMLUI-dummy.m"; sourceTree = "<group>"; };
+		FC8B42C83F7CE1C0B02FA89E5A4B621E /* Pods-MLAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF295DBC0DAE1AB23DE41EE198F8ADE /* Pods-MLAddressBookUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLAddressBookUITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB2624FD0EACD1BD955190ED2D5559A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B971206A25A8CBE15CDF2187E92FF10B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CECDE10CCCF0103CFC813070A467062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F94FD0A1929797F1452F66DA316134B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B8CE397C8AA682435662BF3B4B6EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D054C2401B06B7DF540577552283564E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB293AB1A9F49EF77416952AE192EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E2A406A7776C0CCF72595C24C438D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403B63C889784377340500D8C19E562 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81414FE7D5EB7CB0F9730BF2E7263704 /* GMLUI.modulemap */,
+				F923AFD6022DD2127D8314880158C1F2 /* GMLUI.xcconfig */,
+				F9440494B7F839BAE74B9B789DD64049 /* GMLUI-dummy.m */,
+				0DE44D1FB5EA200AEE90F928C64B14E0 /* GMLUI-prefix.pch */,
+				8162BA0069E310545C0F439BDAEC4BF5 /* GMLUI-umbrella.h */,
+				314A46631227C05B0354FFF8F2C4E24A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GMLUI";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66322BD230598FA17E5F34CA30D96FF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5E351A54F524AA4A1E087303471DC /* Pods-MLAddressBook */,
+				79EC692F9E5B345CE3889C8FC611FD67 /* Pods-MLAddressBookTests */,
+				72F88FA9B0A4439B666CEBEE39E55DF1 /* Pods-MLAddressBookUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72F88FA9B0A4439B666CEBEE39E55DF1 /* Pods-MLAddressBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD435C8ABB7A4F4A7FCE26C20F0772 /* Info.plist */,
+				9A86EBFCFD47122BA4BF9139A2EFDB03 /* Pods-MLAddressBookUITests.modulemap */,
+				CAA2CBA7316FC3E2A87F7769507AE582 /* Pods-MLAddressBookUITests-acknowledgements.markdown */,
+				F722B6FFC98D12FE3AE5FFD11FF02E8A /* Pods-MLAddressBookUITests-acknowledgements.plist */,
+				A34BB91692AC3845545E5FDEEA941F4A /* Pods-MLAddressBookUITests-dummy.m */,
+				F35E3423620F38CBD8C59FD4AA55E441 /* Pods-MLAddressBookUITests-frameworks.sh */,
+				FDF295DBC0DAE1AB23DE41EE198F8ADE /* Pods-MLAddressBookUITests-resources.sh */,
+				5C1822EB83CCE0FB01B4A5D12C3143B5 /* Pods-MLAddressBookUITests-umbrella.h */,
+				A4BF12E1CB4A7EC0B88C2D7369BFE573 /* Pods-MLAddressBookUITests.debug.xcconfig */,
+				461CAE73671139BEE098E0CFF3D53F14 /* Pods-MLAddressBookUITests.release.xcconfig */,
+			);
+			name = "Pods-MLAddressBookUITests";
+			path = "Target Support Files/Pods-MLAddressBookUITests";
+			sourceTree = "<group>";
+		};
+		79EC692F9E5B345CE3889C8FC611FD67 /* Pods-MLAddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9471A0A6706217BC8F5D3A024AF0326 /* Info.plist */,
+				D6032CCBFC01C0222A64E8188C696D3A /* Pods-MLAddressBookTests.modulemap */,
+				A6C522CC6AB40A861CA1EE44D25DD428 /* Pods-MLAddressBookTests-acknowledgements.markdown */,
+				456E38FFEC25DDFB9EE7F9ABF3DBE192 /* Pods-MLAddressBookTests-acknowledgements.plist */,
+				DE51664A27904129E4B30E96FD16D268 /* Pods-MLAddressBookTests-dummy.m */,
+				83400A9F9D6D8F1C3BF8ED07D81DA055 /* Pods-MLAddressBookTests-frameworks.sh */,
+				B05A4A05C429BB11756A90AB92BCA286 /* Pods-MLAddressBookTests-resources.sh */,
+				C22350E9F0E84D8262BDC8B16C81EE8A /* Pods-MLAddressBookTests-umbrella.h */,
+				84EE77E853ACEFAC59E45EF82420F7A4 /* Pods-MLAddressBookTests.debug.xcconfig */,
+				8B5F9476E6C43F95488281D95EDD005D /* Pods-MLAddressBookTests.release.xcconfig */,
+			);
+			name = "Pods-MLAddressBookTests";
+			path = "Target Support Files/Pods-MLAddressBookTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				98AFB17177C4121E9182E7C831E7B931 /* Pods */,
+				88E0907C1D849B71B8320CB6B89D0D7C /* Products */,
+				66322BD230598FA17E5F34CA30D96FF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88E0907C1D849B71B8320CB6B89D0D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080D0F9474ADF0D8D9238BB83CE888D8 /* GMLUI.framework */,
+				E6B322DD0116B1426D02F312AAF279CB /* Pods_MLAddressBook.framework */,
+				8A1B9C4BB0EDAFFBB34468C3B743A7D4 /* Pods_MLAddressBookTests.framework */,
+				731DEBBEBAFA5EBCB609D260503572C9 /* Pods_MLAddressBookUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98AFB17177C4121E9182E7C831E7B931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E702F77C54739A58066D4128F3D43F3C /* GMLUI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5A5E351A54F524AA4A1E087303471DC /* Pods-MLAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				2766CD999FAB596BE21DEC7E38306355 /* Info.plist */,
+				4A27ACA30B2E4971FDE619AE13094844 /* Pods-MLAddressBook.modulemap */,
+				267FFC23D3AE191FD96E6A6FA1B6E33B /* Pods-MLAddressBook-acknowledgements.markdown */,
+				08A4012003D3016CF24D08A1DD04712F /* Pods-MLAddressBook-acknowledgements.plist */,
+				451E9023FBA62EB077245980A4E844DA /* Pods-MLAddressBook-dummy.m */,
+				B7736F17E8D93D1364FC302C971C59E8 /* Pods-MLAddressBook-frameworks.sh */,
+				CC7850F3D55358E4C5B73016D9C1E82F /* Pods-MLAddressBook-resources.sh */,
+				6C8B859CB1AC59BC7F6CF19BE0CC9266 /* Pods-MLAddressBook-umbrella.h */,
+				FC8B42C83F7CE1C0B02FA89E5A4B621E /* Pods-MLAddressBook.debug.xcconfig */,
+				80FCA60E51A3D13CDC672D7DC0FBA2B2 /* Pods-MLAddressBook.release.xcconfig */,
+			);
+			name = "Pods-MLAddressBook";
+			path = "Target Support Files/Pods-MLAddressBook";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E702F77C54739A58066D4128F3D43F3C /* GMLUI */ = {
+			isa = PBXGroup;
+			children = (
+				95B1037372E9FBBC0BE6786957BDD1F9 /* UILabel+GMLCreateExtension.swift */,
+				23E753822AD3D06A8273E42C689DBECC /* UIView+GMLAdd.swift */,
+				0403B63C889784377340500D8C19E562 /* Support Files */,
+			);
+			path = GMLUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1355D36FE858E729FF08230B50D0EE66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743DE28C36BD0D647776A83CEB86549E /* Pods-MLAddressBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC4201D84A0DA48419FDF13B139AB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E983D245C626ECF394F73CD99C5F64B /* Pods-MLAddressBookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19655BA4A81BADB743D93C97484142D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CDE5598E4FA16DC5ECDED11CC2BB0F /* GMLUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C253743B253B02F14B7AC5A63BA6BE2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ED7A463D81378DD043BD5239671314 /* Pods-MLAddressBookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17A272005BD6942086E2AEAB006F4E65 /* GMLUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E760EB9C9DE50D2804625CB513268E8 /* Build configuration list for PBXNativeTarget "GMLUI" */;
+			buildPhases = (
+				EC3EECFABA4B986E4EE831DE3382A2CB /* Sources */,
+				0DB2624FD0EACD1BD955190ED2D5559A /* Frameworks */,
+				19655BA4A81BADB743D93C97484142D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLUI;
+			productName = GMLUI;
+			productReference = 080D0F9474ADF0D8D9238BB83CE888D8 /* GMLUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CAC4FC49F4C8403F36F4894E54DC956 /* Pods-MLAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04E78E666BC42CAD47C4EF1E022097 /* Build configuration list for PBXNativeTarget "Pods-MLAddressBook" */;
+			buildPhases = (
+				9099973B451DAAF5AD4F2C4B47B10083 /* Sources */,
+				BDB293AB1A9F49EF77416952AE192EB5 /* Frameworks */,
+				1355D36FE858E729FF08230B50D0EE66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515B65017C275D6898C00176F1FEB543 /* PBXTargetDependency */,
+			);
+			name = "Pods-MLAddressBook";
+			productName = "Pods-MLAddressBook";
+			productReference = E6B322DD0116B1426D02F312AAF279CB /* Pods_MLAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91176DF53070CE092B55D372938FAD88 /* Pods-MLAddressBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B56B16A415FAA3FB5E35849997DFA2A /* Build configuration list for PBXNativeTarget "Pods-MLAddressBookUITests" */;
+			buildPhases = (
+				B22BABC1CBEC6481866EA6983FB79852 /* Sources */,
+				5CECDE10CCCF0103CFC813070A467062 /* Frameworks */,
+				C253743B253B02F14B7AC5A63BA6BE2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5329B75DF66DFC578EBD99361AC0A335 /* PBXTargetDependency */,
+			);
+			name = "Pods-MLAddressBookUITests";
+			productName = "Pods-MLAddressBookUITests";
+			productReference = 731DEBBEBAFA5EBCB609D260503572C9 /* Pods_MLAddressBookUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F87D146B922AD0F4E45015410C13E1CB /* Pods-MLAddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4189061F597BB7F51D8584F8BD9A6137 /* Build configuration list for PBXNativeTarget "Pods-MLAddressBookTests" */;
+			buildPhases = (
+				5FA0DDC53A2F6E6DE37AD10347CDC579 /* Sources */,
+				94B8CE397C8AA682435662BF3B4B6EA3 /* Frameworks */,
+				17EC4201D84A0DA48419FDF13B139AB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80838F6BD9D4F62D5489ADC56E16B17 /* PBXTargetDependency */,
+			);
+			name = "Pods-MLAddressBookTests";
+			productName = "Pods-MLAddressBookTests";
+			productReference = 8A1B9C4BB0EDAFFBB34468C3B743A7D4 /* Pods_MLAddressBookTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 88E0907C1D849B71B8320CB6B89D0D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A272005BD6942086E2AEAB006F4E65 /* GMLUI */,
+				5CAC4FC49F4C8403F36F4894E54DC956 /* Pods-MLAddressBook */,
+				F87D146B922AD0F4E45015410C13E1CB /* Pods-MLAddressBookTests */,
+				91176DF53070CE092B55D372938FAD88 /* Pods-MLAddressBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA0DDC53A2F6E6DE37AD10347CDC579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F834B04D4823ED82A7632E2916B40536 /* Pods-MLAddressBookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9099973B451DAAF5AD4F2C4B47B10083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4FA7E858CF400DAAAB53F25F52E1C2 /* Pods-MLAddressBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BABC1CBEC6481866EA6983FB79852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCC7368D7E93A731844486EC4CA879C /* Pods-MLAddressBookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3EECFABA4B986E4EE831DE3382A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD4EC1E6595461146F99058DD8F24BC /* GMLUI-dummy.m in Sources */,
+				7C8FC84D15247938A6E12CAB7124EA7F /* UILabel+GMLCreateExtension.swift in Sources */,
+				26AACF5506FB78CEDB8E5EF1CC8DC201 /* UIView+GMLAdd.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515B65017C275D6898C00176F1FEB543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMLUI;
+			target = 17A272005BD6942086E2AEAB006F4E65 /* GMLUI */;
+			targetProxy = 58D92C072C65490793DBBC08FCEC6FA8 /* PBXContainerItemProxy */;
+		};
+		5329B75DF66DFC578EBD99361AC0A335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MLAddressBook";
+			target = 5CAC4FC49F4C8403F36F4894E54DC956 /* Pods-MLAddressBook */;
+			targetProxy = 22895C33A842B86058A4994A2E9F8EC7 /* PBXContainerItemProxy */;
+		};
+		C80838F6BD9D4F62D5489ADC56E16B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MLAddressBook";
+			target = 5CAC4FC49F4C8403F36F4894E54DC956 /* Pods-MLAddressBook */;
+			targetProxy = E0328DDBD7334626A878CFA604F7C9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18E1F0C8D20DA3944D42F87092F31082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5F9476E6C43F95488281D95EDD005D /* Pods-MLAddressBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBookTests/Pods-MLAddressBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30F3BF3216573E66250FC2F32EE737CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F923AFD6022DD2127D8314880158C1F2 /* GMLUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMLUI/GMLUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMLUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMLUI/GMLUI.modulemap";
+				PRODUCT_MODULE_NAME = GMLUI;
+				PRODUCT_NAME = GMLUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C3F614F235948E0DAAC8D04DE5C651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FCA60E51A3D13CDC672D7DC0FBA2B2 /* Pods-MLAddressBook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D87537C1B8BDEF48EF2DA1A5E78FE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F923AFD6022DD2127D8314880158C1F2 /* GMLUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMLUI/GMLUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMLUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMLUI/GMLUI.modulemap";
+				PRODUCT_MODULE_NAME = GMLUI;
+				PRODUCT_NAME = GMLUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F49B3404D0B5FFF72576F03C6F6C2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EE77E853ACEFAC59E45EF82420F7A4 /* Pods-MLAddressBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBookTests/Pods-MLAddressBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BC400C0F70E35004081167EA78D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4BF12E1CB4A7EC0B88C2D7369BFE573 /* Pods-MLAddressBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBookUITests/Pods-MLAddressBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AB40D57DF421EA2D9405B2F7AFA4D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8B42C83F7CE1C0B02FA89E5A4B621E /* Pods-MLAddressBook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B055022BDFF4D75A2C0D34B6E48A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461CAE73671139BEE098E0CFF3D53F14 /* Pods-MLAddressBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLAddressBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLAddressBookUITests/Pods-MLAddressBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4189061F597BB7F51D8584F8BD9A6137 /* Build configuration list for PBXNativeTarget "Pods-MLAddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49B3404D0B5FFF72576F03C6F6C2C9 /* Debug */,
+				18E1F0C8D20DA3944D42F87092F31082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B56B16A415FAA3FB5E35849997DFA2A /* Build configuration list for PBXNativeTarget "Pods-MLAddressBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BC400C0F70E35004081167EA78D04 /* Debug */,
+				8B055022BDFF4D75A2C0D34B6E48A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E760EB9C9DE50D2804625CB513268E8 /* Build configuration list for PBXNativeTarget "GMLUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F3BF3216573E66250FC2F32EE737CE /* Debug */,
+				3D87537C1B8BDEF48EF2DA1A5E78FE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04E78E666BC42CAD47C4EF1E022097 /* Build configuration list for PBXNativeTarget "Pods-MLAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB40D57DF421EA2D9405B2F7AFA4D2D /* Debug */,
+				32C3F614F235948E0DAAC8D04DE5C651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

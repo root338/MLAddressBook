@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003308B1F9EB75E2F056D44C /* Pods_MLAddressBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2271E9B69C6048111A37A3C2 /* Pods_MLAddressBookTests.framework */; };
+		183E52762193D232002F76B5 /* MLContactGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E52752193D232002F76B5 /* MLContactGroupTableViewCell.swift */; };
+		18576ECD2180154D00638D67 /* 注意事项 in Resources */ = {isa = PBXBuildFile; fileRef = 18576ECC2180154D00638D67 /* 注意事项 */; };
+		18576ED6218041AE00638D67 /* MLContactsEnumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576ED3218041AD00638D67 /* MLContactsEnumConstants.swift */; };
+		18576ED7218041AE00638D67 /* MLContactsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576ED4218041AD00638D67 /* MLContactsResult.swift */; };
+		18576ED8218041AE00638D67 /* MLContactsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576ED5218041AD00638D67 /* MLContactsConstant.swift */; };
+		18576EDB2180426000638D67 /* String+MLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576EDA2180425F00638D67 /* String+MLExtension.swift */; };
+		18576EDE2180579D00638D67 /* CNContactFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576EDD2180579D00638D67 /* CNContactFormatter+Extension.swift */; };
+		18576EE021805AB200638D67 /* CNContact+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18576EDF21805AB200638D67 /* CNContact+Extension.swift */; };
+		1888781B2186A41A003EB954 /* MLContactGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888781A2186A41A003EB954 /* MLContactGroup.swift */; };
+		188878202186A744003EB954 /* MLContactBaseGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888781F2186A744003EB954 /* MLContactBaseGroupItem.swift */; };
 		18C16DE9217DC87B00755FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16DE8217DC87B00755FA0 /* AppDelegate.swift */; };
-		18C16DEB217DC87B00755FA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16DEA217DC87B00755FA0 /* ViewController.swift */; };
 		18C16DEE217DC87B00755FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C16DEC217DC87B00755FA0 /* Main.storyboard */; };
 		18C16DF0217DC87F00755FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C16DEF217DC87F00755FA0 /* Assets.xcassets */; };
 		18C16DF3217DC87F00755FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C16DF1217DC87F00755FA0 /* LaunchScreen.storyboard */; };
 		18C16DFE217DC88000755FA0 /* MLAddressBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16DFD217DC88000755FA0 /* MLAddressBookTests.swift */; };
 		18C16E09217DC88000755FA0 /* MLAddressBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E08217DC88000755FA0 /* MLAddressBookUITests.swift */; };
+		18C16E1A217EB21F00755FA0 /* MLContactsGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E19217EB21F00755FA0 /* MLContactsGroupViewController.swift */; };
+		18C16E23217ECD5E00755FA0 /* MLContactGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E22217ECD5E00755FA0 /* MLContactGroupManager.swift */; };
+		18C16E26217ECE3000755FA0 /* MLContactDefineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E25217ECE3000755FA0 /* MLContactDefineConstants.swift */; };
+		18C16E2B217ECEE000755FA0 /* MLContactGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E2A217ECEDF00755FA0 /* MLContactGroupItem.swift */; };
+		18C16E3D217ED10D00755FA0 /* MLContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E3B217ED10C00755FA0 /* MLContactsManager.swift */; };
+		18C16E42217ED1DD00755FA0 /* MLContactsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E41217ED1DD00755FA0 /* MLContactsConfiguration.swift */; };
+		18C16E47217EEE5700755FA0 /* MLTableViewManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E46217EEE5700755FA0 /* MLTableViewManagerProtocol.swift */; };
+		18C16E49217F00DF00755FA0 /* MLContactHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C16E48217F00DF00755FA0 /* MLContactHelper.swift */; };
+		4F1EDAEAFE9F914BA0290E42 /* Pods_MLAddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5A3B3351896B349046F8BE /* Pods_MLAddressBook.framework */; };
+		DB8995F24C37BCCA629D443D /* Pods_MLAddressBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9949B5F3CFA09E8D1B04EC /* Pods_MLAddressBookUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183E52752193D232002F76B5 /* MLContactGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactGroupTableViewCell.swift; sourceTree = "<group>"; };
+		18576ECC2180154D00638D67 /* 注意事项 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "注意事项"; sourceTree = "<group>"; };
+		18576ED3218041AD00638D67 /* MLContactsEnumConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLContactsEnumConstants.swift; sourceTree = "<group>"; };
+		18576ED4218041AD00638D67 /* MLContactsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLContactsResult.swift; sourceTree = "<group>"; };
+		18576ED5218041AD00638D67 /* MLContactsConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLContactsConstant.swift; sourceTree = "<group>"; };
+		18576EDA2180425F00638D67 /* String+MLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MLExtension.swift"; sourceTree = "<group>"; };
+		18576EDD2180579D00638D67 /* CNContactFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CNContactFormatter+Extension.swift"; sourceTree = "<group>"; };
+		18576EDF21805AB200638D67 /* CNContact+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CNContact+Extension.swift"; sourceTree = "<group>"; };
+		1888781A2186A41A003EB954 /* MLContactGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactGroup.swift; sourceTree = "<group>"; };
+		1888781F2186A744003EB954 /* MLContactBaseGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactBaseGroupItem.swift; sourceTree = "<group>"; };
 		18C16DE5217DC87B00755FA0 /* MLAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C16DE8217DC87B00755FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18C16DEA217DC87B00755FA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18C16DED217DC87B00755FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C16DEF217DC87F00755FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C16DF2217DC87F00755FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,23 @@
 		18C16E04217DC88000755FA0 /* MLAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C16E08217DC88000755FA0 /* MLAddressBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAddressBookUITests.swift; sourceTree = "<group>"; };
 		18C16E0A217DC88000755FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C16E19217EB21F00755FA0 /* MLContactsGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactsGroupViewController.swift; sourceTree = "<group>"; };
+		18C16E22217ECD5E00755FA0 /* MLContactGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactGroupManager.swift; sourceTree = "<group>"; };
+		18C16E25217ECE3000755FA0 /* MLContactDefineConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactDefineConstants.swift; sourceTree = "<group>"; };
+		18C16E2A217ECEDF00755FA0 /* MLContactGroupItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLContactGroupItem.swift; sourceTree = "<group>"; };
+		18C16E3B217ED10C00755FA0 /* MLContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLContactsManager.swift; sourceTree = "<group>"; };
+		18C16E41217ED1DD00755FA0 /* MLContactsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactsConfiguration.swift; sourceTree = "<group>"; };
+		18C16E46217EEE5700755FA0 /* MLTableViewManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLTableViewManagerProtocol.swift; sourceTree = "<group>"; };
+		18C16E48217F00DF00755FA0 /* MLContactHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLContactHelper.swift; sourceTree = "<group>"; };
+		1C9949B5F3CFA09E8D1B04EC /* Pods_MLAddressBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF6EA334A10635095711D6C /* Pods-MLAddressBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBookTests/Pods-MLAddressBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2271E9B69C6048111A37A3C2 /* Pods_MLAddressBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC33410A3196CDB418C255C /* Pods-MLAddressBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBookUITests/Pods-MLAddressBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30FDFB85F680FDF754870606 /* Pods-MLAddressBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBookUITests/Pods-MLAddressBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70AED229E1B286E91FC4056B /* Pods-MLAddressBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBookTests/Pods-MLAddressBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D3EC914B4953F3AA30B3625 /* Pods-MLAddressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5A3B3351896B349046F8BE /* Pods_MLAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A851B0F8F64C318A2A2CC /* Pods-MLAddressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLAddressBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1EDAEAFE9F914BA0290E42 /* Pods_MLAddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003308B1F9EB75E2F056D44C /* Pods_MLAddressBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +116,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8995F24C37BCCA629D443D /* Pods_MLAddressBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6AB8787FEC7B589797914F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EC914B4953F3AA30B3625 /* Pods-MLAddressBook.debug.xcconfig */,
+				E29A851B0F8F64C318A2A2CC /* Pods-MLAddressBook.release.xcconfig */,
+				1CF6EA334A10635095711D6C /* Pods-MLAddressBookTests.debug.xcconfig */,
+				70AED229E1B286E91FC4056B /* Pods-MLAddressBookTests.release.xcconfig */,
+				2FC33410A3196CDB418C255C /* Pods-MLAddressBookUITests.debug.xcconfig */,
+				30FDFB85F680FDF754870606 /* Pods-MLAddressBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		183E52742193D20D002F76B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				183E52752193D232002F76B5 /* MLContactGroupTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18576ED2218041AD00638D67 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				18576ED3218041AD00638D67 /* MLContactsEnumConstants.swift */,
+				18576ED4218041AD00638D67 /* MLContactsResult.swift */,
+				18576ED5218041AD00638D67 /* MLContactsConstant.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		18576ED92180425000638D67 /* StringTools */ = {
+			isa = PBXGroup;
+			children = (
+				18576EDA2180425F00638D67 /* String+MLExtension.swift */,
+			);
+			path = StringTools;
+			sourceTree = "<group>";
+		};
+		18576EDC2180577700638D67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18576EDD2180579D00638D67 /* CNContactFormatter+Extension.swift */,
+				18576EDF21805AB200638D67 /* CNContact+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1888781C2186A588003EB954 /* GroupItems */ = {
+			isa = PBXGroup;
+			children = (
+				1888781F2186A744003EB954 /* MLContactBaseGroupItem.swift */,
+			);
+			path = GroupItems;
+			sourceTree = "<group>";
+		};
 		18C16DDC217DC87B00755FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,8 @@
 				18C16DFC217DC88000755FA0 /* MLAddressBookTests */,
 				18C16E07217DC88000755FA0 /* MLAddressBookUITests */,
 				18C16DE6217DC87B00755FA0 /* Products */,
+				0F6AB8787FEC7B589797914F /* Pods */,
+				51694348CAAAD56A88586D31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +204,8 @@
 		18C16DE7217DC87B00755FA0 /* MLAddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				18C16E1B217EB25D00755FA0 /* Tools */,
 				18C16DE8217DC87B00755FA0 /* AppDelegate.swift */,
-				18C16DEA217DC87B00755FA0 /* ViewController.swift */,
 				18C16DEC217DC87B00755FA0 /* Main.storyboard */,
 				18C16DEF217DC87F00755FA0 /* Assets.xcassets */,
 				18C16DF1217DC87F00755FA0 /* LaunchScreen.storyboard */,
@@ -125,6 +232,102 @@
 			path = MLAddressBookUITests;
 			sourceTree = "<group>";
 		};
+		18C16E18217EB20100755FA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C16E19217EB21F00755FA0 /* MLContactsGroupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18C16E1B217EB25D00755FA0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18576ED92180425000638D67 /* StringTools */,
+				18C16E45217EEE4000755FA0 /* TableViewManager */,
+				18C16E37217ED10C00755FA0 /* Contacts */,
+				18C16E31217ED0A000755FA0 /* ContactsUI */,
+				18576ECC2180154D00638D67 /* 注意事项 */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18C16E21217ECD3E00755FA0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18C16E22217ECD5E00755FA0 /* MLContactGroupManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18C16E24217ECDFC00755FA0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				18C16E25217ECE3000755FA0 /* MLContactDefineConstants.swift */,
+				18C16E48217F00DF00755FA0 /* MLContactHelper.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		18C16E31217ED0A000755FA0 /* ContactsUI */ = {
+			isa = PBXGroup;
+			children = (
+				183E52742193D20D002F76B5 /* Views */,
+				18C16E40217ED1C600755FA0 /* Configuration */,
+				18C16E18217EB20100755FA0 /* Controllers */,
+				18C16E21217ECD3E00755FA0 /* Managers */,
+				18C16E24217ECDFC00755FA0 /* Others */,
+				18C16E3F217ED13800755FA0 /* Models */,
+			);
+			path = ContactsUI;
+			sourceTree = "<group>";
+		};
+		18C16E37217ED10C00755FA0 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				18576EDC2180577700638D67 /* Extensions */,
+				18576ED2218041AD00638D67 /* Define */,
+				18C16E3B217ED10C00755FA0 /* MLContactsManager.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		18C16E3F217ED13800755FA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1888781C2186A588003EB954 /* GroupItems */,
+				1888781A2186A41A003EB954 /* MLContactGroup.swift */,
+				18C16E2A217ECEDF00755FA0 /* MLContactGroupItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18C16E40217ED1C600755FA0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				18C16E41217ED1DD00755FA0 /* MLContactsConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		18C16E45217EEE4000755FA0 /* TableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				18C16E46217EEE5700755FA0 /* MLTableViewManagerProtocol.swift */,
+			);
+			path = TableViewManager;
+			sourceTree = "<group>";
+		};
+		51694348CAAAD56A88586D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A3B3351896B349046F8BE /* Pods_MLAddressBook.framework */,
+				2271E9B69C6048111A37A3C2 /* Pods_MLAddressBookTests.framework */,
+				1C9949B5F3CFA09E8D1B04EC /* Pods_MLAddressBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C16E0D217DC88000755FA0 /* Build configuration list for PBXNativeTarget "MLAddressBook" */;
 			buildPhases = (
+				8EE459978CFB9F3F2129ED98 /* [CP] Check Pods Manifest.lock */,
 				18C16DE1217DC87B00755FA0 /* Sources */,
 				18C16DE2217DC87B00755FA0 /* Frameworks */,
 				18C16DE3217DC87B00755FA0 /* Resources */,
+				FC94D0E8AE474B852DB96ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C16E10217DC88000755FA0 /* Build configuration list for PBXNativeTarget "MLAddressBookTests" */;
 			buildPhases = (
+				BAECAB8F831EE4AE6A7EF0F0 /* [CP] Check Pods Manifest.lock */,
 				18C16DF5217DC88000755FA0 /* Sources */,
 				18C16DF6217DC88000755FA0 /* Frameworks */,
 				18C16DF7217DC88000755FA0 /* Resources */,
@@ -167,6 +373,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C16E13217DC88000755FA0 /* Build configuration list for PBXNativeTarget "MLAddressBookUITests" */;
 			buildPhases = (
+				CA68B381B70F9C4DC50D6E23 /* [CP] Check Pods Manifest.lock */,
 				18C16E00217DC88000755FA0 /* Sources */,
 				18C16E01217DC88000755FA0 /* Frameworks */,
 				18C16E02217DC88000755FA0 /* Resources */,
@@ -232,6 +439,7 @@
 				18C16DF3217DC87F00755FA0 /* LaunchScreen.storyboard in Resources */,
 				18C16DF0217DC87F00755FA0 /* Assets.xcassets in Resources */,
 				18C16DEE217DC87B00755FA0 /* Main.storyboard in Resources */,
+				18576ECD2180154D00638D67 /* 注意事项 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +459,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EE459978CFB9F3F2129ED98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLAddressBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAECAB8F831EE4AE6A7EF0F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLAddressBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA68B381B70F9C4DC50D6E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLAddressBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC94D0E8AE474B852DB96ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GMLUI/GMLUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMLUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLAddressBook/Pods-MLAddressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18C16DE1217DC87B00755FA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C16DEB217DC87B00755FA0 /* ViewController.swift in Sources */,
+				18576ED7218041AE00638D67 /* MLContactsResult.swift in Sources */,
+				1888781B2186A41A003EB954 /* MLContactGroup.swift in Sources */,
+				18C16E42217ED1DD00755FA0 /* MLContactsConfiguration.swift in Sources */,
 				18C16DE9217DC87B00755FA0 /* AppDelegate.swift in Sources */,
+				18C16E47217EEE5700755FA0 /* MLTableViewManagerProtocol.swift in Sources */,
+				188878202186A744003EB954 /* MLContactBaseGroupItem.swift in Sources */,
+				18C16E23217ECD5E00755FA0 /* MLContactGroupManager.swift in Sources */,
+				18576EDB2180426000638D67 /* String+MLExtension.swift in Sources */,
+				18576ED6218041AE00638D67 /* MLContactsEnumConstants.swift in Sources */,
+				183E52762193D232002F76B5 /* MLContactGroupTableViewCell.swift in Sources */,
+				18C16E2B217ECEE000755FA0 /* MLContactGroupItem.swift in Sources */,
+				18576EE021805AB200638D67 /* CNContact+Extension.swift in Sources */,
+				18C16E26217ECE3000755FA0 /* MLContactDefineConstants.swift in Sources */,
+				18C16E49217F00DF00755FA0 /* MLContactHelper.swift in Sources */,
+				18576EDE2180579D00638D67 /* CNContactFormatter+Extension.swift in Sources */,
+				18576ED8218041AE00638D67 /* MLContactsConstant.swift in Sources */,
+				18C16E1A217EB21F00755FA0 /* MLContactsGroupViewController.swift in Sources */,
+				18C16E3D217ED10D00755FA0 /* MLContactsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +729,13 @@
 		};
 		18C16E0E217DC88000755FA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3EC914B4953F3AA30B3625 /* Pods-MLAddressBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = MLAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +749,13 @@
 		};
 		18C16E0F217DC88000755FA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29A851B0F8F64C318A2A2CC /* Pods-MLAddressBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = MLAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +769,7 @@
 		};
 		18C16E11217DC88000755FA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF6EA334A10635095711D6C /* Pods-MLAddressBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +791,7 @@
 		};
 		18C16E12217DC88000755FA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AED229E1B286E91FC4056B /* Pods-MLAddressBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +813,7 @@
 		};
 		18C16E14217DC88000755FA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC33410A3196CDB418C255C /* Pods-MLAddressBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +834,7 @@
 		};
 		18C16E15217DC88000755FA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FDFB85F680FDF754870606 /* Pods-MLAddressBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

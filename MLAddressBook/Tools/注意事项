@@ -1,0 +1,30 @@
+
+# CNContactFormatter 的使用
+在使用 CNContactFormatterStyle 属性格式化 CNContact 实例时
+1. 使用 CNContactFormatterStyleFullName 属性，在获取 CNContact 实例时必须包含以下值
+CNContactTypeKey,
+CNContactFamilyNameKey,
+CNContactGivenNameKey,
+CNContactNameSuffixKey,
+CNContactNamePrefixKey
+
+<<<   CNContactMiddleNameKey 这个属性值待定   >>>
+2. 使用 CNContactFormatterStylePhoneticFullName 属性，在获取 CNContact 实例时必须包含以下值
+CNContactPhoneticGivenNameKey,
+CNContactPhoneticMiddleNameKey,
+CNContactPhoneticFamilyNameKey,
+CNContactPhoneticOrganizationNameKey,
+
+CNContactGivenNameKey,
+CNContactFamilyNameKey,
+CNContactNamePrefixKey,
+CNContactMiddleNameKey,
+CNContactNameSuffixKey,
+CNContactTypeKey,
+
+3. 如果这些必要的参数都没有值时在 iOS 10.0.2 也会发生以下崩溃 (其他iOS 版本待测)
+
+注意： iOS 版本更新后也许需要 在相应版本下更新必要的参数
+
+否则会发生在运行时崩溃
+崩溃日志 Terminating app due to uncaught exception 'CNPropertyNotFetchedException', reason: 'A property was not requested when contact was fetched.'

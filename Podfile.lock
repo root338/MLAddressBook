@@ -1,0 +1,16 @@
+PODS:
+  - GMLUI (0.0.1)
+
+DEPENDENCIES:
+  - GMLUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GMLUI
+
+SPEC CHECKSUMS:
+  GMLUI: 840851fc76b3e636d33beaa1bf5dc58431d6fe54
+
+PODFILE CHECKSUM: 0e644bbc7764b5bc7f10ac26d6d2640c9ddcb242
+
+COCOAPODS: 1.5.3

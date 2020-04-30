@@ -1,0 +1,6 @@
+framework module Pods_MLAddressBookTests {
+  umbrella header "Pods-MLAddressBookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

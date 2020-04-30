@@ -1,0 +1,6 @@
+framework module GMLUI {
+  umbrella header "GMLUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
